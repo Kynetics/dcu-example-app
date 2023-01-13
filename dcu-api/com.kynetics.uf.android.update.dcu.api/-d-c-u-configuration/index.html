@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>DCUConfiguration</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>dcu-api</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dcu-api::com.kynetics.uf.android.update.dcu.api/DCUConfiguration///PointingToDeclaration//703792312">
+  <div class="breadcrumbs"><a href="../../../index.html">dcu-api</a><span class="delimiter">/</span><a href="../index.html">com.kynetics.uf.android.update.dcu.api</a><span class="delimiter">/</span><a href="index.html">DCUConfiguration</a></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>DCUConfiguration</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":uf-client-service:dcu-api:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">DCUConfiguration</a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>applicationId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>timeout<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token operator"> = </span>1L.toDuration(DurationUnit.HOURS).toLong(DurationUnit.MILLISECONDS)<span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>uninstallPolicy<span class="token operator">: </span><a href="-uninstall-policy/index.html">DCUConfiguration.UninstallPolicy</a><span class="token operator"> = </span>UninstallPolicy.ALWAYS</span></span><span class="token punctuation">)</span> : <a href="../-d-c-u-message-v1/index.html">DCUMessageV1</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">DCU Configuration message. It allows to configure the DCU update timeout and the uninstall policy.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="See also">See also</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">See also</h2>
+      <div data-togglable="See also">
+        <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="See also"><div class="content sourceset-depenent-content" data-active="" data-togglable=":uf-client-service:dcu-api:dokkaHtml/release"><div data-togglable="See also"><div class="table" data-togglable="See also"><div class="table-row" data-filterable-current=":uf-client-service:dcu-api:dokkaHtml/release" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><a href="-uninstall-policy/index.html"><span>com.</span><wbr></wbr><span>kynetics.</span><wbr></wbr><span>uf.</span><wbr></wbr><span>android.</span><wbr></wbr><span>update.</span><wbr></wbr><span>dcu.</span><wbr></wbr><span>api.</span><wbr></wbr><span>DCUConfiguration.</span><wbr></wbr><span>Uninstall</span><wbr></wbr><span><span>Policy</span></span></a></div></span></div><div><div class="title"><div data-togglable="See also"></div></div></div></div></div></div></div></div></div>
+      </div>
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-893685740%2FConstructors%2F703792312" anchor-label="DCUConfiguration" id="-893685740%2FConstructors%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":uf-client-service:dcu-api:dokkaHtml/release" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-d-c-u-configuration.html"><span><span>DCUConfiguration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-893685740%2FConstructors%2F703792312"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":uf-client-service:dcu-api:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-d-c-u-configuration.html"><span class="token function">DCUConfiguration</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;applicationId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;timeout<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token operator"> = </span>1L.toDuration(DurationUnit.HOURS).toLong(DurationUnit.MILLISECONDS)<span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;uninstallPolicy<span class="token operator">: </span><a href="-uninstall-policy/index.html">DCUConfiguration.UninstallPolicy</a><span class="token operator"> = </span>UninstallPolicy.ALWAYS</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="-770727874%2FClasslikes%2F703792312" anchor-label="UninstallPolicy" id="-770727874%2FClasslikes%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":uf-client-service:dcu-api:dokkaHtml/release" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-uninstall-policy/index.html"><span>Uninstall</span><wbr></wbr><span><span>Policy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-770727874%2FClasslikes%2F703792312"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":uf-client-service:dcu-api:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-uninstall-policy/index.html">UninstallPolicy</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-uninstall-policy/index.html">DCUConfiguration.UninstallPolicy</a><span class="token operator">&gt; </span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">The UninstallPolicy policy determines when an dcu update should be uninstalled.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-1695050956%2FProperties%2F703792312" anchor-label="applicationId" id="-1695050956%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":uf-client-service:dcu-api:dokkaHtml/release" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="application-id.html"><span>application</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1695050956%2FProperties%2F703792312"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":uf-client-service:dcu-api:dokkaHtml/release"><a data-name="-1695050956%2FProperties%2F703792312" anchor-label="applicationId" id="-1695050956%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="application-id.html">applicationId</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1695050956%2FProperties%2F703792312" anchor-label="applicationId" id="-1695050956%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a><p class="paragraph">the application id of the DCU update app witch sends the message</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1060758688%2FProperties%2F703792312" anchor-label="id" id="1060758688%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":uf-client-service:dcu-api:dokkaHtml/release" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="id.html"><span><span>id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1060758688%2FProperties%2F703792312"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":uf-client-service:dcu-api:dokkaHtml/release"><a data-name="1060758688%2FProperties%2F703792312" anchor-label="id" id="1060758688%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="id.html">id</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1060758688%2FProperties%2F703792312" anchor-label="id" id="1060758688%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a><p class="paragraph">the id of the message</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1760895330%2FProperties%2F703792312" anchor-label="timeout" id="-1760895330%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":uf-client-service:dcu-api:dokkaHtml/release" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="timeout.html"><span><span>timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1760895330%2FProperties%2F703792312"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":uf-client-service:dcu-api:dokkaHtml/release"><a data-name="-1760895330%2FProperties%2F703792312" anchor-label="timeout" id="-1760895330%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="timeout.html">timeout</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1760895330%2FProperties%2F703792312" anchor-label="timeout" id="-1760895330%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a><p class="paragraph">the max time before the update fails with a timeout error.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1918579883%2FProperties%2F703792312" anchor-label="uninstallPolicy" id="1918579883%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":uf-client-service:dcu-api:dokkaHtml/release" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="uninstall-policy.html"><span>uninstall</span><wbr></wbr><span><span>Policy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1918579883%2FProperties%2F703792312"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":uf-client-service:dcu-api:dokkaHtml/release"><a data-name="1918579883%2FProperties%2F703792312" anchor-label="uninstallPolicy" id="1918579883%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="uninstall-policy.html">uninstallPolicy</a><span class="token operator">: </span><a href="-uninstall-policy/index.html">DCUConfiguration.UninstallPolicy</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1918579883%2FProperties%2F703792312" anchor-label="uninstallPolicy" id="1918579883%2FProperties%2F703792312" data-filterable-set=":uf-client-service:dcu-api:dokkaHtml/release"></a><p class="paragraph">the policy that determines when an dcu update should be uninstalled.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright @ 2023 Kynetics</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

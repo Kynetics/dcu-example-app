@@ -1,0 +1,47 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.kynetics.uf.android.update.dcu.api////PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration.UninstallPolicy.ALWAYS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/-uninstall-policy/-a-l-w-a-y-s/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration.UninstallPolicy.NEVER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/-uninstall-policy/-n-e-v-e-r/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration.UninstallPolicy.ON_ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/-uninstall-policy/-o-n_-e-r-r-o-r/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration.UninstallPolicy.ON_SUCCESS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/-uninstall-policy/-o-n_-s-u-c-c-e-s-s/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration.UninstallPolicy///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/-uninstall-policy/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration/DCUConfiguration/#kotlin.String#kotlin.Long#com.kynetics.uf.android.update.dcu.api.DCUConfiguration.UninstallPolicy/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/-d-c-u-configuration.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration/applicationId/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/application-id.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration/id/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/id.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration/timeout/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/timeout.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUConfiguration/uninstallPolicy/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-configuration/uninstall-policy.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessage///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessage/applicationId/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message/application-id.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessage/id/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message/id.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessagePacker.Companion///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-packer/-companion/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessagePacker.Companion/DCU_MESSAGE_API_VERSION_KEY/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-packer/-companion/-d-c-u_-m-e-s-s-a-g-e_-a-p-i_-v-e-r-s-i-o-n_-k-e-y.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessagePacker.Companion/DCU_MESSAGE_CONTENT_KEY/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-packer/-companion/-d-c-u_-m-e-s-s-a-g-e_-c-o-n-t-e-n-t_-k-e-y.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessagePacker.Companion/DCU_MESSAGE_TYPE_KEY/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-packer/-companion/-d-c-u_-m-e-s-s-a-g-e_-t-y-p-e_-k-e-y.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessagePacker///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-packer/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessagePacker/dePack/#android.os.Bundle/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-packer/de-pack.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessagePacker/pack/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-packer/pack.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessageV1///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-v1/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessageV1JsonSerializator///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-v1-json-serializator/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessageV1JsonSerializator/toJson/#com.kynetics.uf.android.update.dcu.api.DCUMessageV1/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-v1-json-serializator/to-json.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessageV1packer///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-v1packer/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessageV1packer/dePack/#android.os.Bundle/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-v1packer/de-pack.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUMessageV1packer/pack/#com.kynetics.uf.android.update.dcu.api.DCUMessageV1/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-message-v1packer/pack.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUNotification///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-notification/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUNotification/DCUNotification/#kotlin.collections.List[kotlin.String]#kotlin.Boolean#kotlin.Boolean#kotlin.String/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-notification/-d-c-u-notification.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUNotification/applicationId/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-notification/application-id.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUNotification/error/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-notification/error.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUNotification/id/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-notification/id.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUNotification/immediately/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-notification/immediately.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUNotification/message/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-notification/message.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUResult///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-result/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUResult/DCUResult/#kotlin.Boolean#kotlin.collections.List[kotlin.String]#kotlin.String/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-result/-d-c-u-result.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUResult/applicationId/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-result/application-id.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUResult/details/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-result/details.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUResult/id/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-result/id.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUResult/success/#/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-result/success.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUServiceNotifier///PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-service-notifier/index.html
+$dokka.location:com.kynetics.uf.android.update.dcu.api/DCUServiceNotifier/notify/#android.content.Context#com.kynetics.uf.android.update.dcu.api.DCUMessage/PointingToDeclaration/dcu-api/com.kynetics.uf.android.update.dcu.api/-d-c-u-service-notifier/notify.html
+com.kynetics.uf.android.update.dcu.api
+
